@@ -1,5 +1,5 @@
 <?php
-$command= "pdfgrep create *pdf  --with-filename  -c -r";
+$command= "pdfgrep paypal *pdf  --with-filename  -c -r";
 
   exec($command,$output,$return_var);
 
