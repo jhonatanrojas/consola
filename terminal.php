@@ -1,5 +1,5 @@
 <?php
-$command= "ls";
+$command= "pdfgrep create *pdf  --with-filename  -c -r";
 
   exec($command,$output,$return_var);
 
